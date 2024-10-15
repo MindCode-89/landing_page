@@ -1,0 +1,20 @@
+:root{
+--Violet: hsl(257, 40%, 49%);
+--Soft-Magenta: hsl(300, 69%, 71%);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: var(--Violet);
+    background-image: url(images/bg-desktop.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-size: 70%;
+    font-family: "Open Sans", sans-serif;
+
+}
